@@ -6,18 +6,11 @@ using namespace std;
 int main() 
 {
    double midterm_grade;
-   //I chose to make this variable a double because grades can often contain decimals.
    double project_average;
-   //I chose to make this variable a double because grades can often contain decimals.
    double homework_average;
-   //I chose to make this variable a double because grades can often contain decimals.
    double current_average;
-   //I chose to make this variable a double because grades can often contain decimals.
    double minimum_final;
-   //I chose to make this variable a double because grades can often contain decimals.
    const int course_goal = 70;
-   //I chose to make this variable an int because it has to be set to 70 and 70 doesn't contain any decimals.
-   //I chose to make this variable a constant because for this project this variable doesn't need to be changed.
    
    cout << "Please press enter after typing in each number.\n"; 
    cout << "Enter your midterm grade as a number from 0 to 100.\n";
